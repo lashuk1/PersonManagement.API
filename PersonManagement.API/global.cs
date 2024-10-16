@@ -1,0 +1,17 @@
+﻿global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Mvc.Filters;
+global using Newtonsoft.Json;
+global using PersonManagement.Application.DTOs;
+global using PersonManagement.Application.Interfaces;
+global using PersonManagement.Infrastructure.Repositories.Implementations;
+global using PersonManagement.Infrastructure.Repositories.Interfaces;
+global using System.Globalization;
+global using System.Net;
+global using FluentValidation.AspNetCore;
+global using Microsoft.AspNetCore.Localization;
+global using Microsoft.EntityFrameworkCore;
+global using PersonManagement.API.ActionFilters;
+global using PersonManagement.API.Extensions;
+global using PersonManagement.API.Middlewares;
+global using PersonManagement.Application;
+global using PersonManagement.Infrastructure.Data;

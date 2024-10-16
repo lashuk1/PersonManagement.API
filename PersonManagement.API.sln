@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagement.API", "PersonManagement.API\PersonManagement.API.csproj", "{9A559351-6C65-40A9-BF33-859F2EC68B6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1EB98EBF-EC13-4954-B2F5-FBE020BFEC5D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagement.Domain", "PersonManagement.Domain\PersonManagement.Domain.csproj", "{3EF680A1-090A-4125-8AB1-CE26197816D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagement.Application", "PersonManagement.Application\PersonManagement.Application.csproj", "{684900A6-3473-4273-9A66-DEA16AB7D05C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagement.Infrastructure", "PersonManagement.Infrastructure\PersonManagement.Infrastructure.csproj", "{98BA278B-5502-4C1F-B007-A13531B63781}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A559351-6C65-40A9-BF33-859F2EC68B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A559351-6C65-40A9-BF33-859F2EC68B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A559351-6C65-40A9-BF33-859F2EC68B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A559351-6C65-40A9-BF33-859F2EC68B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF680A1-090A-4125-8AB1-CE26197816D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF680A1-090A-4125-8AB1-CE26197816D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF680A1-090A-4125-8AB1-CE26197816D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF680A1-090A-4125-8AB1-CE26197816D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684900A6-3473-4273-9A66-DEA16AB7D05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684900A6-3473-4273-9A66-DEA16AB7D05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684900A6-3473-4273-9A66-DEA16AB7D05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684900A6-3473-4273-9A66-DEA16AB7D05C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98BA278B-5502-4C1F-B007-A13531B63781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98BA278B-5502-4C1F-B007-A13531B63781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98BA278B-5502-4C1F-B007-A13531B63781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98BA278B-5502-4C1F-B007-A13531B63781}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

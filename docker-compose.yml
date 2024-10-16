@@ -1,0 +1,6 @@
+﻿services:
+  personmanagement.api:
+    image: personmanagement.api
+    build:
+      context: .
+      dockerfile: PersonManagement.API/Dockerfile
